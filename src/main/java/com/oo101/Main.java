@@ -6,5 +6,8 @@ public class Main {
         car.speedUp();
         Truck truck = new Truck();
         truck.speedUp();
+
+        Driver driver1 = new Driver(truck);
+        driver1.speedUp();
     }
 }
