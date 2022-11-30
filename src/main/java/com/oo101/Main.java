@@ -1,7 +1,7 @@
 package com.oo101;
 
-public class Main {
-    public static void main(){
+class Main {
+    public static void main(String[] args) {
         Car car = new Car("Car1",new GasolineEngine());
         car.speedUp();
         Car car2 = new Car("Car2",new ElectricEngine());
