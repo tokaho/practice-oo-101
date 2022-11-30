@@ -1,8 +1,8 @@
 package com.oo101;
 
 public class Car extends Vehicle {
-    public Car() {
-        super("Car", 30);
+    public Car(String name, Engine engine) {
+        super(name, engine.getSpeed());
     }
 
 }
